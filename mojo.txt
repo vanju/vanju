@@ -1,0 +1,140 @@
+﻿C:
+Проверить функцию strxfrm (случай, когда n = n_size)
+
+lexical analysis
+syntax analysis
+semantic analysis
+-----------------
+
+толерантный
+перманентный
+алчный
+латентный
+релевантный
+превентивный
+узурпированный
+номинальный
+иллюзорный
+тлетворный
+лукавить
+тщеславный
+меркантильный
+------------------------------------------------
+
+
+
+dns_cloudflare_email = "vangeyko@gmail.com"
+dns_cloudflare_api_key = "bd950ea187e34092c6fb529559cc21db01a93"
+
+sudo /usr/local/bin/certbot certonly --dns-cloudflare --dns-cloudflare-credentials /root/.secrets/cloudflare.ini -d devplanet.tech,*.devplanet.tech --preferred-challenges dns-01
+
+$ sudo certbot -a dns-plugin -i --dns-cloudflare-credentials /root/.secrets/cloudflare.ini apache -d "*.devplanet.tech" -d devplanet.tech --server https://acme-v02.api.letsencrypt.org/directory
+
+sudo certbot -a dns-cloudflare -i apache -d "*.devplanet.tech" -d devplanet.tech --server https://acme-v02.api.letsencrypt.org/directory --dns-cloudflare-credentials /root/.secrets/cloudflare.ini
+------------------------------------------------------------------------------
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$11:$AE$38,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$64:$AE$91,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$117:$AE$144,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$170:$AE$197,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$223:$AE$250,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$276:$AE$303,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$329:$AE$356,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$382:$AE$409,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$435:$AE$462,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$F$488:$AE$515,A2, ),1)
+
+
+
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$11:$AS$38,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$64:$AS$91,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$117:$AS$144,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$170:$AS$197,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$223:$AS$250,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$276:$AS$303,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$329:$AS$356,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$382:$AS$409,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$435:$AS$462,A2, ),1)
+=ПОВТОР(ИНДЕКС('Выполнение заданий'!$AH$488:$AS$515,A2, ),1)
+---------------------------------------------------------------------------------
+=ИНДЕКС('Выполнение заданий'!$F$39:$AE$39,1, )
+=ИНДЕКС('Выполнение заданий'!$F$92:$AE$92,1, )
+=ИНДЕКС('Выполнение заданий'!$F$145:$AE$145,1, )
+=ИНДЕКС('Выполнение заданий'!$F$198:$AE$198,1, )
+=ИНДЕКС('Выполнение заданий'!$F$251:$AE$251,1, )
+=ИНДЕКС('Выполнение заданий'!$F$304:$AE$304,1, )
+=ИНДЕКС('Выполнение заданий'!$F$357:$AE$357,1, )
+=ИНДЕКС('Выполнение заданий'!$F$410:$AE$410,1, )
+=ИНДЕКС('Выполнение заданий'!$F$463:$AE$463,1, )
+=ИНДЕКС('Выполнение заданий'!$F$516:$AE$516,1, )
+---------------------------------------------------------------------------------
+ПОИСК("мин",E2,1)
+СЦЕПИТЬ("0 мин, ",E2)
+----------------------------
+ВПР(B4,Лист2!A1:B12,2,0)
+
+mpd758
+---------------------------------------------------------------------------------------
+ESET NOD32 Antivirus 9-12
+DEAS-W33H-CD4U-UAB2-WW5F
+FRAJ-WRBF-VABG-G3VG-A5RM
+CNDU-W33B-UAJ8-8NB7-PVU6
+RUAW-W336-JU9T-T8NW-HSH6
+CNDU-W33E-59SK-K2BF-9JST
+RUAW-W336-KAG2-2WWD-AX3F
+--------------------------------------------------------------------------------------
+567904007
+567904008
+567904110
+
++79215755076
+------------------------------------------------------------------------------------------------------
+
+		{
+			$date = date('d.m.Y H:i:s');
+			$params =  array(
+				"OWNER_ID" => 25010,
+				"OWNER_TYPE_ID" => 3, // из метода crm.enum.ownertype
+				"TYPE_ID" => 4, // из метода crm.enum.activitytype
+				"COMMUNICATIONS" => array(array('VALUE' => "vangeyko@gmail.com", 'ENTITY_ID' => 25010, 'ENTITY_TYPE_ID' => 3)), //где 134 - id контакта, 3 - тип "контакт"
+				"SUBJECT" => "Тест",
+				"START_TIME" => $date,
+				"END_TIME" => $date,
+				"COMPLETED" => "Y",
+				"PRIORITY" => 2, //	из метода crm.enum.activitypriority
+				"RESPONSIBLE_ID" => 230,
+				"DESCRIPTION" => "Важный email",
+				"DESCRIPTION_TYPE" => 3, // из метода crm.enum.contenttype
+				"DIRECTION" => 2 // из метода crm.enum.activitydirection
+				//"WEBDAV_ELEMENTS" => array(),
+				//"FILES" => array()
+			);
+			
+			
+			$ch = curl_init("https://crm.ecosoft.com/rest/230/uwnw5jtnn6erhsll/crm.activity.add.json");
+			curl_setopt($ch, CURLOPT_HTTPHEADER, Array("Content-type: multipart/form-data"));
+			curl_setopt($ch, CURLOPT_POST, 1);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			$result = curl_exec($ch);
+			curl_close($ch);
+			$array = json_decode($result);
+			echo "<pre>"; print_r($array);echo "</pre>";
+			
+			break;
+		}
+
+
+1. Add fuctory methods to space and sheet classes.
+2. Modify method that return date. Parameter should contain default value.
+3. Delcare method in sheet class that will store content from sheet model method.
+4. Add to sheet class col property.
+----------------------------------------------
+agroprodukt2009@mail.ru agroprodukt2009@mail.ru
+
+preg_split
+preg_match_all
+explode
+implode
+substr
+str_replace
+
